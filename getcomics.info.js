@@ -1,9 +1,5 @@
-// https://getcomics.info/tag/action-comics/
-// https://getcomics.info/tag/superman/
-// https://getcomics.info/tag/doomsday-clock/
-
 clear()
-var txt=Array.from(document.querySelectorAll(".aio-pulse a"))
+var txt=Array.from(document.querySelectorAll(".post-contents li strong a"))
 .map(function(a,i){
     return a.href
 }).join("\n").trim()
