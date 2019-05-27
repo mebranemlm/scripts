@@ -1,5 +1,5 @@
-https://razoncienciaspr.org/category/religion/page/1/
-
+//https://razoncienciaspr.org/category/religion/page/1/
+clear()
 var arr=[]
 document.querySelectorAll(".entry-title").forEach((d)=>{
 var a= d.querySelector("a")
