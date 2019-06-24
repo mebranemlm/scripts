@@ -1,5 +1,6 @@
 //https://www.google.com/search?q=site:biblicalarchaeology.org
 
+clear()
 var arr=[]
 
 var divs=Array.from(document.querySelectorAll(".r"))
@@ -14,5 +15,5 @@ divs.forEach((div,i,a)=>{
 
 })
 
-arr.sort().join("\n")
+console.log(arr.join("\n"))
 
