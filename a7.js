@@ -22,10 +22,9 @@ clearInterval(i);
 document.querySelectorAll(".epeven input[type=checkbox]").forEach(function(c){
 c.click();
 });
-
-setTimeout(()=>{
+ 
  document.querySelector("input[name=Submit]").click();
-},1000);
+ 
  
 },3000);
 
