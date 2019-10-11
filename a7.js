@@ -20,7 +20,7 @@ setTimeout(()=>{
 clearInterval(i);
 
 document.querySelectorAll(".epeven input[type=checkbox]").forEach(function(c){
-c.click();
+ if (!c.checked) c.click();
 });
  
  document.querySelector("input[name=Submit]").click();
